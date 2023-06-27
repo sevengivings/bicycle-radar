@@ -1,6 +1,5 @@
-#include <ld2410.h>
 #include <TM1637Display.h>
-
+#include <ld2410.h>
 #include <BLEDevice.h>
 #include <BLEUtils.h>
 #include <BLEServer.h>
@@ -118,7 +117,7 @@ void setup(void)
   }
 
     uint8_t data[] = { 0xff, 0xff, 0xff, 0xff };  
-  display.setBrightness(0x05); 
+  display.setBrightness(0x01); 
   // All segments on
   display.setSegments(data);
   delay(1000); 
