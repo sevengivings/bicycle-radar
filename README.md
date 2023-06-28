@@ -1,7 +1,14 @@
 # bicycle-radar
 Arduino, XIAO ESP32-C3, LD2410 24GHz presence sensor, Buzzer, TM1637
 
-To prepare an app on your Android phone to monitor the change in distance value as you ride your bike.
+Unexpeced approaching behind when riding frightened me sometimes, although ready made products are in the market, I made bicycle radar demo.  
+
+Limitations 
+
+- LD2410 covers 4~5m, so it can miss fast followers.
+- It's noisy if running next to an alley or a bridge railing because it will detect that object as moving object(actually sensor is moving).  
+
+To prepare an app on Android phone to monitor the change in distance value when riding bike.
 
 1) ESP32
 - start with LD2410 Arduino example code 
