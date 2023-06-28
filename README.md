@@ -17,5 +17,5 @@ To prepare an app on Android phone to monitor the change in distance value when 
 
 2) Android BluetoothLeGatt app
 - https://github.com/android/connectivity-samples/tree/main/BluetoothLeGatt (Android SDK 28) 
-- Above needs some modification for recent SDK(https://stackoverflow.com/questions/37423199/bluetooth-le-gatt-not-finding-any-devices)
+- Above needs some modification for recent SDK(https://stackoverflow.com/questions/37423199/bluetooth-le-gatt-not-finding-any-devices, https://developer.android.com/guide/topics/connectivity/bluetooth/permissions)
 
