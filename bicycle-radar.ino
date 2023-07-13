@@ -25,8 +25,8 @@
     #elif CONFIG_IDF_TARGET_ESP32C3
       #define MONITOR_SERIAL Serial
       #define RADAR_SERIAL Serial1
-      #define RADAR_RX_PIN 5   // D3
-      #define RADAR_TX_PIN 4   // D2 
+      #define RADAR_RX_PIN 5   // D4
+      #define RADAR_TX_PIN 4   // D3 
     #else 
       #error Target CONFIG_IDF_TARGET is not supported
     #endif
@@ -51,8 +51,8 @@ bool radarConnected = false;
 int buzzer_pin = D1; // GPIO3 
 
 // Module connection pins (Digital Pins)
-#define CLK 8  // D8 GPIO8 
-#define DIO 9  // D9 GPIO9
+#define CLK 8  // D9 GPIO8 
+#define DIO 9  // D10 GPIO9
 
 TM1637Display display(CLK, DIO);
 
