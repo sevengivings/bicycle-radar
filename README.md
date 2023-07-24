@@ -19,6 +19,8 @@ To prepare an app on Android phone to monitor the change in distance value when 
 - https://github.com/android/connectivity-samples/tree/main/BluetoothLeGatt (Android SDK 28) 
 - Above needs some modification for recent SDK(https://stackoverflow.com/questions/37423199/bluetooth-le-gatt-not-finding-any-devices, https://developer.android.com/guide/topics/connectivity/bluetooth/permissions)
 
+![125300](https://github.com/sevengivings/bicycle-radar/assets/2328500/40695141-8ee5-4d79-ae08-892293e303b4)
+
 History 
 
 - Refer to https://imky.tistory.com/62 (in Korean) 
